@@ -12,12 +12,13 @@ namespace net_calculator_tester
 
         public static float Substract(float a, float b) { return a - b; }
 
-        public static float Divide(float a,float b) 
+        public static float Divide(float a, float b)
         {
             if (b == 0)
             {
                 throw new Exception("Impossibile dividere per zero");
             }
+
             return a / b; 
         }
 

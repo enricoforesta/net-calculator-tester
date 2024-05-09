@@ -32,6 +32,7 @@ namespace TestProjectCalculator
         [TestCase(10, 2, 5)]
         [TestCase(0, 1, 0)]
         [TestCase(100, 0, 0)]
+        [TestCase(100, -2 , -50)]
         public void TestDivide(float a, float b, float result)
         {
             try
